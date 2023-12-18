@@ -18,6 +18,30 @@
   </head>
   <body>
     <header class="header">
+      <nav class="header__nav">
+        <ul class="menu menu--main">
+          <li class="menu__item">
+            <a href="#home" class="menu__link active">
+              <span class="menu__text">Home</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#projects" class="menu__link">
+              <span class="menu__text">Projetos</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#about" class="menu__link">
+              <span class="menu__text">Sobre</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a href="#contact" class="menu__link">
+              <span class="menu__text">Contato</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
       <div class="header__brand">
         <img
           class="brand__logo"
@@ -25,9 +49,11 @@
           alt="Logo LS"
         />
       </div>
-      <i id="toggleTheme" class="bi bi-sun"></i>
+      <div class="header__toggle">
+        <i id="toggleTheme" class="bi bi-sun"></i>
+      </div>
     </header>
-    <nav>
+    <nav class="nav--mobile">
       <ul class="menu menu--mobile">
         <li class="menu__item">
           <a href="#home" class="menu__link active">
