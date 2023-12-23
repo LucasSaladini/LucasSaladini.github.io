@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
+    <!-- Use local storage to "save" theme -->
     <header class="header">
       <nav class="header__nav">
         <ul class="menu menu--main">
@@ -316,11 +317,48 @@
         </div>
       </div>
     </section>
+    <section id="contact" class="contact">
+      <h2>Contate-me</h2>
+      <p>
+        Estou disponível para serviços e conexões. Contate-me via e-mail e
+        conecte-se comigo através das minhas redes sociais
+      </p>
+      <ul class="menu menu--social">
+        <li>
+          <a
+            href="https://github.com/LucasSaladini"
+            target="_blank"
+            class="menu__link"
+          >
+            <i class="menu__icon bi bi-github"></i>
+            <span>GitHub</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/lucas-saladini/"
+            class="menu__link"
+            target="_blank"
+          >
+            <i class="menu__icon br bi-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+        </li>
+        <a href="mailto:lucassaladini@gmail.com">
+          <button class="btn btn--primary">
+            <span class="email">lucassaladini@gmail.com</span>
+          </button>
+        </a>
+      </ul>
+    </section>
     <footer>
       <p>
         Copyright 2023. Todos os direitos reservados. Lucas Saladini.
         Desenvolvido por
-        <a href="https://github.com/LucasSaladini" target="_blank">LS</a>
+        <a href="https://github.com/LucasSaladini" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
       </p>
     </footer>
     <script src="/assets/js/scripts.js"></script>

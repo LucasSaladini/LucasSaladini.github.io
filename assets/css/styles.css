@@ -24,6 +24,10 @@
     --icon-color: #56575A;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html[data-theme="light"] .skills__logo {
     filter: invert(80%);
 }
@@ -416,6 +420,35 @@ main p {
 .accordion__item.active .bi-caret-down-fill {
     transform: rotate(180deg);
 }
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    border-top: 1px solid var(--primary-border-color);
+    border-bottom: 1px solid var(--primary-border-color);
+    margin-top: 5rem;
+  }
+  
+  .contact p {
+    text-align: center;
+    color: var(--text-color);
+    width: 70%;
+  }
+
+  .menu--social > li > a {
+    color: var(--text-color);
+  }
+  
+  .contact .btn {
+    width: auto;
+  }
+  
+  .contact .email {
+    text-transform: lowercase;
+  }
 
 footer {
     margin-bottom: 5rem;
